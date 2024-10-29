@@ -12,6 +12,7 @@ import {
   SiPhp,
   SiWordpress,
   SiMysql,
+  SiGithub,
 } from 'react-icons/si';
 
 const TechSkills = () => {
@@ -45,8 +46,12 @@ const TechSkills = () => {
         <DiMongodb />
       </li>
       <li className={s.techIcon}>
+        <SiGithub />
+      </li>
+      <li className={s.techIcon}>
         <DiScrum />
       </li>
+    
       
     </ul>
   );
