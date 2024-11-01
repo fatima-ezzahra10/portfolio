@@ -1,5 +1,5 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/woman-working-laptop-home.png';
+import avatar from '../../../assets/Smiling--woman.png';
 import { FaInstagram } from "react-icons/fa";
 import {
   FaFacebookSquare,
