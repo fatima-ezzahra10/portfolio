@@ -43,7 +43,7 @@ const Resume = () => {
           <div className={s.filesImg}>
             <FilesIcon />
           </div>
-        </div>
+        </div> 
 
         <Button
           style={{ margin: 'auto', width: '15rem' }}
