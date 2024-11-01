@@ -1,5 +1,5 @@
 import s from './MainSection.module.scss';
-import homeMainIcon from '../../../assets/Fatima-Ezzahra.jpg';
+import homeMainIcon from '../../../assets/Fatima-Ezzahra-Mardi.png';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

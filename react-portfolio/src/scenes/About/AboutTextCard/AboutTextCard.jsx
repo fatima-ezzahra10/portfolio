@@ -7,7 +7,7 @@ const AboutTextCard = () => {
       <p style={{ textAlign: 'justify' }}>
       Bonjour à tous, je suis{' '}
         <span className={s.purple}>Fatima-Ezzahra Mardi, </span>
-        <br />développeuse web actuellement basée au Maroc{' '}
+        <br />développeuse web actuellement basée au {' '}
         <span className={s.purple}>Casablanca, Maroc.</span>
         <br />
         <br />

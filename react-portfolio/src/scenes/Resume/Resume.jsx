@@ -5,17 +5,18 @@ import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
 import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
 import Button from '../../components/UIElements/Button/Button';
-//react-pdf
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+// Direct link to your CV PDF
+const resumeLink = 'https://raw.githubusercontent.com/fatima-ezzahra10/portfolio/main/CV%20Fatima-Ezzahra%20Mardi.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
+
   useEffect(() => {
     setPdfPageWidth(
       pdfWrapper.current?.getBoundingClientRect().width || null,
@@ -38,10 +39,7 @@ const Resume = () => {
     <BaseLayout>
       <div className={s.content}>
         <div className={s.header}>
-          <h1 className={s.title}>
-            My <br /> Resume
-          </h1>
-
+          <h1 className={s.title}>Mon CV</h1>
           <div className={s.filesImg}>
             <FilesIcon />
           </div>
@@ -54,16 +52,14 @@ const Resume = () => {
           target="_blank"
         >
           <DownloadIcon fill="#fff" />
-          <span className={s.downloadText}> download resume</span>
+          <span className={s.downloadText}> Télécharger le CV</span>
           <span className={s.filename}>.pdf</span>
         </Button>
 
         <div className={s.pdfWrapper} ref={pdfWrapper}>
           <Document
             loading={<LinerProgress />}
-            file={{
-              url: resumeLink,
-            }}
+            file={{ url: resumeLink }}
           >
             <Page
               onLoadSuccess={removeTextLayerOffset}
