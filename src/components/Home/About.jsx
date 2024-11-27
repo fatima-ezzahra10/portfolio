@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import LaptopImg from "../../assets/home-main.svg";
+import LaptopImg from "../../assets/developpeuse-girl.svg";
 import { ImPointRight } from 'react-icons/im';
 
 import Tilt from "react-parallax-tilt";
@@ -41,6 +41,15 @@ const About = () => {
               <b className="yellow"> Java</b> pour le backend.
               <br />
               <br />
+            
+
+              <p>
+                J'ai également une passion pour le développement de nouvelles <b className="yellow">technologies web</b> et la création de produits numériques innovants.
+                <br />
+                <br />
+                En plus de cela, je suis très intéressée par l'exploration de domaines liés à <b className="yellow">SQL</b> et à l'utilisation de <b className="yellow">UML</b> pour la modélisation des systèmes.
+              </p>
+
               <p style={{ textAlign: 'justify' }}>
                 En dehors du codage, je suis une personne curieuse et active. Dans mon temps libre, j'aime :
               </p>
@@ -56,14 +65,6 @@ const About = () => {
                   <ImPointRight /> Me challenger avec la boxe
                 </li>
               </ul>
-
-              <p>
-                J'ai également une passion pour le développement de nouvelles <b className="yellow">technologies web</b> et la création de produits numériques innovants.
-                <br />
-                <br />
-                En plus de cela, je suis très intéressée par l'exploration de domaines liés à <b className="yellow">SQL</b> et à l'utilisation de <b className="yellow">UML</b> pour la modélisation des systèmes.
-              </p>
-
 
             </p>
           </Col>
