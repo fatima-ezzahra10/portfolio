@@ -6,10 +6,10 @@ const Type = () => {
         <Typewriter
           options={{
             strings: [
-              "MERN Stack Developer",
-              "Passionate Blockchain Enthusiast",
-              "Committed Open Source Contributor",
-              "Effective Problem Solver"
+              "En apprentissage continu",
+              "Développeuse web",
+              "Créatrice d'expériences numériques",
+              "Passionnée par la technologie"
             ],
             autoStart: true,
             loop: true,

@@ -1,131 +1,136 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import LaptopImg from "../../assets/home-main.svg";
+import { ImPointRight } from 'react-icons/im';
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter
+  AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
 
 
 
 const About = () => {
-    return (
-        <Container fluid className="home-about-section" id="about">
-          <Container>
-            <Row>
-              <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
-                </h1>
-                <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LAISSE-MOI <span className="yellow"> ME PRÉSENTER </span> MOI-MÊME
+            </h1>
+            <p className="home-about-body">
+              Bonjour, je m'appelle <span className="yellow">Fatima-Ezzahra Mardi, </span>
+              et je suis basée à <span className="yellow"> Casablanca, Maroc.</span>
+              <br />
+              <br />
+              Actuellement en formation pour obtenir une licence professionnelle en développement web et mobile,
+              je suis passionnée par la création de solutions numériques modernes et innovantes.                <br />
+              <br />
+              En tant que développeuse web,
+              je maîtrise
+              <b className="yellow"> HTML, CSS, JavaScript, PHP </b>, et je possède une solide expérience avec des outils tels que
+              <b className="yellow"> WordPress</b>. Je développe également des solutions sur mesure adaptées aux besoins de mes clients.
+              <br />
+              <br />Je suis motivée par l'apprentissage continu et je suis également en train d'explorer des technologies modernes telles que
+              <b className="yellow"> React.js </b> et  <b className="yellow"> Angular </b>
+              pour le frontend et
+              <b className="yellow"> Java</b> pour le backend.
+              <br />
+              <br />
+              <p style={{ textAlign: 'justify' }}>
+                En dehors du codage, je suis une personne curieuse et active. Dans mon temps libre, j'aime :
+              </p>
+
+              <ul>
+                <li>
+                  <ImPointRight /> Pratiquer la natation
+                </li>
+                <li>
+                  <ImPointRight /> Découvrir de nouveaux lieux en voyageant
+                </li>
+                <li>
+                  <ImPointRight /> Me challenger avec la boxe
+                </li>
+              </ul>
+
+              <p>
+                J'ai également une passion pour le développement de nouvelles <b className="yellow">technologies web</b> et la création de produits numériques innovants.
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
-                  <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
-                  <br />
-                  <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
-                  <br />
-                  <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
-                  
-                </p>
-              </Col>
-              <Col md={4} className="myAvtar">
-                <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
-                </Tilt>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={12} className="home-about-social">
-                <h1>FIND ME ON</h1>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
-                <ul className="home-about-social-links">
-                  <li className="social-icons">
-                    <a
-                      href="https://github.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="github"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="linkedin"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <SiLeetcode />
-                    </a>
-                  </li>
-                </ul>
-              </Col>
-            </Row>
-          </Container>
-        </Container>
-      );
-    
+                En plus de cela, je suis très intéressée par l'exploration de domaines liés à <b className="yellow">SQL</b> et à l'utilisation de <b className="yellow">UML</b> pour la modélisation des systèmes.
+              </p>
+
+
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={LaptopImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>TROUVEZ-MOI SUR</h1>
+            <p>
+              N'hésitez pas à me <span className="yellow">contacter.</span>
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/fatima-ezzahra10"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="github"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:fatimaezzahra.mardi22@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="gmail"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/fatima-ezzahra-mardi-730315258"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="linkedin"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/fati.mardi22"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="instagram"
+                >
+                  <SiInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+
 }
 
 export default About
