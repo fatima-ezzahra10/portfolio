@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pd
 
 const resumeLink = `https://raw.githubusercontent.com/19sajib/portfolio/main/src/assets/sajib.pdf`
 
-
+    
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
