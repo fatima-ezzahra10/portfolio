@@ -13,13 +13,13 @@ const Skillset = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Professional <strong className="yellow">Skillset </strong>
+        <strong className="yellow">Compétences </strong> Professionnelles 
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="yellow">Tools</strong> I use
+          <strong className="yellow">Outils</strong> que j'utilise
         </h1>
         <Toolstack />
 

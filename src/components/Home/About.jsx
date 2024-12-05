@@ -56,13 +56,13 @@ const About = () => {
 
               <ul>
                 <li>
-                  <ImPointRight /> Pratiquer la natation
+                  <ImPointRight />la natation
                 </li>
                 <li>
                   <ImPointRight /> Découvrir de nouveaux lieux en voyageant
                 </li>
                 <li>
-                  <ImPointRight /> Me challenger avec la boxe
+                  <ImPointRight />la boxe
                 </li>
               </ul>
 

@@ -14,10 +14,10 @@ const Projects = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent Top <strong className="yellow">Works </strong>
+        <strong className="yellow">Projets </strong> Récents
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
